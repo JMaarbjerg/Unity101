@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -226,9 +226,9 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 147
   orthographic: 1
-  orthographic size: -25
+  orthographic size: -30
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -251,7 +251,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1249015405}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 30, y: 10, z: 0}
+  m_LocalPosition: {x: 60, y: 10, z: 24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -268,7 +268,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419ef1a838aa08449a90c75bb7a646c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parallel: {fileID: 1833364434167708, guid: ddeecdd458661944999e1ab6c472cf04, type: 2}
-  corner: {fileID: 1389969064967914, guid: 7e81fadca1207ba4a8ef1c19f11dc75e, type: 2}
-  anglePool: 000000005a000000b40000000e010000
-  newAngle: {x: 0, y: 0, z: 0, w: 0}
+  prefabs:
+  - {fileID: 1389969064967914, guid: 7e81fadca1207ba4a8ef1c19f11dc75e, type: 2}
+  - {fileID: 1877707302424586, guid: 003c715b9eea521448401b7274ca6dbc, type: 2}
+  - {fileID: 1374591381859016, guid: ebd807b3fe92ed24982e755c4f885ef2, type: 2}
+  - {fileID: 1348516107936144, guid: 2c3a48c549653ce448351fced9a6218d, type: 2}
+  - {fileID: 1833364434167708, guid: ddeecdd458661944999e1ab6c472cf04, type: 2}
+  - {fileID: 1204191982972652, guid: 117d30832acb20f4d8ea7ace41c7394c, type: 2}
